@@ -8,7 +8,7 @@ This repository contains the code for the paper [Optimistic Verifiable Training 
 If you find this repository useful, please cite:
 
 ```
-@inproceedings{srivastava2023verifiable,
+@inproceedings{srivastava2024verifiable,
     title = "Optimistic Verifiable Training by Controlling Hardware Nondeterminism",
     author = "Srivastava, Megha and Arora, Simran and Boneh, Dan",
     booktitle = "arxiv",
