@@ -3,6 +3,8 @@
 
 This repository contains the code for the paper [Optimistic Verifiable Training by Controlling Hardware Nondeterminism](https://arxiv.org/pdf/2403.09603.pdf) by [Megha Srivastava](https://cs.stanford.edu/~megha), [Simran Arora](https://arorasimran.com/), and [Dan Boneh](https://crypto.stanford.edu/~dabo/). In this work, we show how to eliminate hardware nondeterminism (i.e. achieve identical weights after training on two different GPU types) in order to design a verification scheme for 3rd party auditing of model training services. For any questions, please contact megha@cs.stanford.edu! 
 
+While our code is implemented with version ``pytorch=1.13.1``, we have verified that it is compatible with later pytorch versions, such as ``pytorch=2.3.1``.
+
 If you find this repository useful, please cite:
 
 ```
