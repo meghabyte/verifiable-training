@@ -40,4 +40,4 @@ The flag ``do_print`` is necessary for generating logs to use in future auditing
 
 ## Adding Model Checkpoints into Merkle Tree
 
-The script ``merkple.py`` is used to help add model checkpoints to a Merkle tree. Notably, it contains the ``create_str`` function that serializes model checkpoints so that their hashes can be included as leaves of a Merkle tree. You can use ``test_hash`` to verify if the code is running properly on your end. By default, we append a model checkpoint after every training epoch.
+The script ``merkle.py`` is used to help add model checkpoints to a Merkle tree. Notably, it contains the ``create_str`` function that serializes model checkpoints so that their hashes can be included as leaves of a Merkle tree. You can use ``test_hash`` to verify if the code is running properly on your end. By default, we append a model checkpoint after every training epoch.
